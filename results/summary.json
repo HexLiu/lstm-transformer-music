@@ -1,0 +1,278 @@
+[
+  {
+    "config": {
+      "name": "lstm_w128_s128",
+      "model": "lstm",
+      "width": 128,
+      "length": 128,
+      "seed": 42,
+      "batch_size": 16,
+      "token_budget": 2048000
+    },
+    "parameters": 285523,
+    "steps": 1000,
+    "validation_loss": 1.2252109107070082,
+    "validation_perplexity": 3.4048841335857523,
+    "history": [
+      {
+        "step": 250,
+        "seen_tokens": 512000,
+        "train_loss": 1.68417227268219,
+        "validation_loss": 1.6904212170698512
+      },
+      {
+        "step": 500,
+        "seen_tokens": 1024000,
+        "train_loss": 1.409120798110962,
+        "validation_loss": 1.3949275880348024
+      },
+      {
+        "step": 750,
+        "seen_tokens": 1536000,
+        "train_loss": 1.3076157569885254,
+        "validation_loss": 1.2814920680729422
+      },
+      {
+        "step": 1000,
+        "seen_tokens": 2048000,
+        "train_loss": 1.1871135234832764,
+        "validation_loss": 1.2252109107070082
+      }
+    ],
+    "training_seconds": 3.912447599665029,
+    "total_seconds": 4.055996199982474,
+    "peak_allocated_mb": 134.404608,
+    "training_windows": 1706,
+    "validation_windows": 254
+  },
+  {
+    "config": {
+      "name": "lstm_w64_s128",
+      "model": "lstm",
+      "width": 64,
+      "length": 128,
+      "seed": 42,
+      "batch_size": 16,
+      "token_budget": 2048000
+    },
+    "parameters": 77267,
+    "steps": 1000,
+    "validation_loss": 1.4174344671054149,
+    "validation_perplexity": 4.1265201252157615,
+    "history": [
+      {
+        "step": 250,
+        "seen_tokens": 512000,
+        "train_loss": 2.21071195602417,
+        "validation_loss": 2.320853616308978
+      },
+      {
+        "step": 500,
+        "seen_tokens": 1024000,
+        "train_loss": 1.6887701749801636,
+        "validation_loss": 1.671060997670091
+      },
+      {
+        "step": 750,
+        "seen_tokens": 1536000,
+        "train_loss": 1.564826488494873,
+        "validation_loss": 1.5031437911386565
+      },
+      {
+        "step": 1000,
+        "seen_tokens": 2048000,
+        "train_loss": 1.4639689922332764,
+        "validation_loss": 1.4174344671054149
+      }
+    ],
+    "training_seconds": 2.8405616995878518,
+    "total_seconds": 2.96182100000442,
+    "peak_allocated_mb": 110.18496,
+    "training_windows": 1706,
+    "validation_windows": 254
+  },
+  {
+    "config": {
+      "name": "lstm_w128_s64",
+      "model": "lstm",
+      "width": 128,
+      "length": 64,
+      "seed": 42,
+      "batch_size": 16,
+      "token_budget": 2048000
+    },
+    "parameters": 285523,
+    "steps": 2000,
+    "validation_loss": 1.1703908875232607,
+    "validation_perplexity": 3.2232523214320645,
+    "history": [
+      {
+        "step": 500,
+        "seen_tokens": 512000,
+        "train_loss": 1.389373540878296,
+        "validation_loss": 1.4236811690443143
+      },
+      {
+        "step": 1000,
+        "seen_tokens": 1024000,
+        "train_loss": 1.2040765285491943,
+        "validation_loss": 1.2715196684589536
+      },
+      {
+        "step": 1500,
+        "seen_tokens": 1536000,
+        "train_loss": 1.2177159786224365,
+        "validation_loss": 1.2059367622916155
+      },
+      {
+        "step": 2000,
+        "seen_tokens": 2048000,
+        "train_loss": 1.1783275604248047,
+        "validation_loss": 1.1703908875232607
+      }
+    ],
+    "training_seconds": 6.017776099644834,
+    "total_seconds": 6.227250099997036,
+    "peak_allocated_mb": 120.82176,
+    "training_windows": 2430,
+    "validation_windows": 254
+  },
+  {
+    "config": {
+      "name": "transformer_w128_s128",
+      "model": "transformer",
+      "width": 128,
+      "length": 128,
+      "seed": 42,
+      "batch_size": 16,
+      "token_budget": 2048000
+    },
+    "parameters": 302931,
+    "steps": 1000,
+    "validation_loss": 1.4668319131445697,
+    "validation_perplexity": 4.335478189496162,
+    "history": [
+      {
+        "step": 250,
+        "seen_tokens": 512000,
+        "train_loss": 2.0724658966064453,
+        "validation_loss": 1.9613513045423612
+      },
+      {
+        "step": 500,
+        "seen_tokens": 1024000,
+        "train_loss": 1.7387499809265137,
+        "validation_loss": 1.7409795475757028
+      },
+      {
+        "step": 750,
+        "seen_tokens": 1536000,
+        "train_loss": 1.6607778072357178,
+        "validation_loss": 1.5492966268944928
+      },
+      {
+        "step": 1000,
+        "seen_tokens": 2048000,
+        "train_loss": 1.4767340421676636,
+        "validation_loss": 1.4668319131445697
+      }
+    ],
+    "training_seconds": 6.2775580003799405,
+    "total_seconds": 6.46670499999891,
+    "peak_allocated_mb": 112.456192,
+    "training_windows": 1706,
+    "validation_windows": 254
+  },
+  {
+    "config": {
+      "name": "transformer_w64_s128",
+      "model": "transformer",
+      "width": 64,
+      "length": 128,
+      "seed": 42,
+      "batch_size": 16,
+      "token_budget": 2048000
+    },
+    "parameters": 85971,
+    "steps": 1000,
+    "validation_loss": 1.8142064011941745,
+    "validation_perplexity": 6.136204560034594,
+    "history": [
+      {
+        "step": 250,
+        "seen_tokens": 512000,
+        "train_loss": 2.2208781242370605,
+        "validation_loss": 2.1976385942594274
+      },
+      {
+        "step": 500,
+        "seen_tokens": 1024000,
+        "train_loss": 2.0467519760131836,
+        "validation_loss": 2.0079920460858682
+      },
+      {
+        "step": 750,
+        "seen_tokens": 1536000,
+        "train_loss": 2.11234188079834,
+        "validation_loss": 1.9071854869211753
+      },
+      {
+        "step": 1000,
+        "seen_tokens": 2048000,
+        "train_loss": 1.9321757555007935,
+        "validation_loss": 1.8142064011941745
+      }
+    ],
+    "training_seconds": 5.995499099692097,
+    "total_seconds": 6.165507400000934,
+    "peak_allocated_mb": 91.037184,
+    "training_windows": 1706,
+    "validation_windows": 254
+  },
+  {
+    "config": {
+      "name": "transformer_w128_s64",
+      "model": "transformer",
+      "width": 128,
+      "length": 64,
+      "seed": 42,
+      "batch_size": 16,
+      "token_budget": 2048000
+    },
+    "parameters": 302931,
+    "steps": 2000,
+    "validation_loss": 1.2855448234738327,
+    "validation_perplexity": 3.616637849743768,
+    "history": [
+      {
+        "step": 500,
+        "seen_tokens": 512000,
+        "train_loss": 1.6185612678527832,
+        "validation_loss": 1.598373022605115
+      },
+      {
+        "step": 1000,
+        "seen_tokens": 1024000,
+        "train_loss": 1.3852837085723877,
+        "validation_loss": 1.4253386850432148
+      },
+      {
+        "step": 1500,
+        "seen_tokens": 1536000,
+        "train_loss": 1.4232875108718872,
+        "validation_loss": 1.3354739992637334
+      },
+      {
+        "step": 2000,
+        "seen_tokens": 2048000,
+        "train_loss": 1.3369513750076294,
+        "validation_loss": 1.2855448234738327
+      }
+    ],
+    "training_seconds": 11.66450190107571,
+    "total_seconds": 11.94817950000288,
+    "peak_allocated_mb": 92.703232,
+    "training_windows": 2430,
+    "validation_windows": 254
+  }
+]

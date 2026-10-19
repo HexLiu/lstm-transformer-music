@@ -1,0 +1,56 @@
+[
+  {
+    "name": "lstm_w128_s128",
+    "model": "lstm",
+    "width": 128,
+    "length": 128,
+    "seed": 42,
+    "batch_size": 16,
+    "token_budget": 2048000
+  },
+  {
+    "name": "lstm_w64_s128",
+    "model": "lstm",
+    "width": 64,
+    "length": 128,
+    "seed": 42,
+    "batch_size": 16,
+    "token_budget": 2048000
+  },
+  {
+    "name": "lstm_w128_s64",
+    "model": "lstm",
+    "width": 128,
+    "length": 64,
+    "seed": 42,
+    "batch_size": 16,
+    "token_budget": 2048000
+  },
+  {
+    "name": "transformer_w128_s128",
+    "model": "transformer",
+    "width": 128,
+    "length": 128,
+    "seed": 42,
+    "batch_size": 16,
+    "token_budget": 2048000
+  },
+  {
+    "name": "transformer_w64_s128",
+    "model": "transformer",
+    "width": 64,
+    "length": 128,
+    "seed": 42,
+    "batch_size": 16,
+    "token_budget": 2048000
+  },
+  {
+    "name": "transformer_w128_s64",
+    "model": "transformer",
+    "width": 128,
+    "length": 64,
+    "seed": 42,
+    "batch_size": 16,
+    "token_budget": 2048000
+  }
+]
