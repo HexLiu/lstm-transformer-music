@@ -1,0 +1,10 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.cache/
+.env
+.ipynb_checkpoints/
+runs*/
+data/irish.abc
+*.pt
